@@ -30,6 +30,11 @@
     },
     "DateCreated": {
       "type": "datetime"
+    },
+    "Author": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "admin::user"
     }
   }
 }
