@@ -28,9 +28,6 @@
         "videos"
       ]
     },
-    "DateCreated": {
-      "type": "datetime"
-    },
     "Author": {
       "type": "relation",
       "relation": "oneToOne",
